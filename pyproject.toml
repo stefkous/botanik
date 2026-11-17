@@ -1,14 +1,13 @@
 [project]
-name = "botanique"
+name = "botanik"
 version = "0.1.0"
-description = "Digital Version of the Botanique board game"
+description = "Digital Version of the Botanik board game"
 authors = [
     {name = "Stephania",email = "stefkouss@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "pytest (>=9.1.1,<10.0.0)"
 ]
 
 
@@ -18,5 +17,6 @@ build-backend = "poetry.core.masonry.api"
 
 [dependency-groups]
 dev = [
-    "ipykernel (>=7.4.0,<8.0.0)"
+    "ipykernel (>=7.4.0,<8.0.0)",
+    "pytest (>=9.2.0,<10.0.0)",
 ]
