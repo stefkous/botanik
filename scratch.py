@@ -30,5 +30,7 @@ e = Column(
 )
 board = Board(columns=[a, b, c, d, e])
 
+new_column = Column.new(id="F")
+
 
 print("done")

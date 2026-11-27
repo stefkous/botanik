@@ -22,8 +22,8 @@ class Machine:
         if not isinstance(self.tiles.get(SOURCE_POSITION), SourceTile):
             raise ValueError(f"Machine must have a SourceTile at position {SOURCE_POSITION}, got {self.tiles.get(SOURCE_POSITION)}")
         # initialise machine
-        object.__setattr__(self, 'tiles', MappingProxyType(self.tiles))
-
+        object.__setattr__(self, 'tiles', MappingProxyType(dict(self.tiles)))
+        
     @classmethod
     def new(cls, player_id: PlayerID)-> "Machine":
         if player_id not in typing.get_args(PlayerID):

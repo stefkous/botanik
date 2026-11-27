@@ -4,7 +4,11 @@ import typing
 
 PlayerID = Literal[1,2]
 ColumnIDs = Literal["A", "B", "C", "D", "E"]
-Flowers = Literal[0,1,3]
+
+class Flowers(IntEnum):
+    zero_points = 0
+    one_point = 1
+    three_points = 3
 
 class TileTypes(StrEnum):
     plant = "plant"

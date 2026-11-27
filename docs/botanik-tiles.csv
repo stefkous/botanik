@@ -1,5 +1,5 @@
 id,type,color,flowers
-0,meca-botanist,blue,0
+0,meca_botanist,blue,0
 1,plant,blue,3
 2,cross,blue,0
 3,vegetable,blue,3
@@ -12,7 +12,7 @@ id,type,color,flowers
 10,straight,blue,0
 11,straight,blue,0
 12,straight,blue,1
-13,meca-botanist,green,0
+13,meca_botanist,green,0
 14,plant,green,3
 15,cross,green,0
 16,vegetable,green,3
@@ -25,7 +25,7 @@ id,type,color,flowers
 23,straight,green,0
 24,straight,green,0
 25,straight,green,1
-26,meca-botanist,red,0
+26,meca_botanist,red,0
 27,plant,red,3
 28,cross,red,0
 29,vegetable,red,3
@@ -38,7 +38,7 @@ id,type,color,flowers
 36,straight,red,0
 37,straight,red,0
 38,straight,red,1
-39,meca-botanist,yellow,0
+39,meca_botanist,yellow,0
 40,plant,yellow,3
 41,cross,yellow,0
 42,vegetable,yellow,3
@@ -51,7 +51,7 @@ id,type,color,flowers
 49,straight,yellow,0
 50,straight,yellow,0
 51,straight,yellow,1
-52,meca-botanist,black,0
+52,meca_botanist,black,0
 53,plant,black,3
 54,cross,black,0
 55,vegetable,black,3
